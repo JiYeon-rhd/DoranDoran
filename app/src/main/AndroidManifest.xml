@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DoranDoran">
         <activity
+            android:name=".Cal_Memory_Writing"
+            android:exported="true" />
+        <activity
+            android:name=".Cal_Game_Writing"
+            android:exported="true" />
+        <activity
+            android:name=".Cal_Schedule_Writing"
+            android:exported="true" />
+        <activity
+            android:name=".Cal_DayActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CalendarActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

@@ -4,6 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.317481884057971" />
+        <entry key="app/src/main/res/layout/cal_day.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/cal_game_writing.xml" value="0.31431159420289856" />
+        <entry key="app/src/main/res/layout/cal_memory_writing.xml" value="0.31431159420289856" />
+        <entry key="app/src/main/res/layout/cal_schedule_writing.xml" value="0.31431159420289856" />
+        <entry key="app/src/main/res/layout/calendar.xml" value="0.335" />
       </map>
     </option>
   </component>
