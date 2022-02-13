@@ -5,43 +5,106 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#E8E8E8"
     tools:context=".Cal_Memory_Writing">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="30dp">
 
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:background="@mipmap/ic_launcher_round">
-        </ImageView>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="기록 쓰기"
-            android:textColor="@color/black"
-            android:textSize="18dp"
-            android:gravity="center"
-            android:layout_marginLeft="20dp"
-            >
-        </TextView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:gravity="right">
-            <ImageView
-                android:id="@+id/add_schedule_btn"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:background="@mipmap/ic_launcher_round"
-                android:layout_marginRight="30dp">
-            </ImageView>
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal"
+                android:background="@drawable/roundbackground"
+                >
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:background="@mipmap/ic_launcher_round">
+                </ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="기록 쓰기"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="20dp"
+                    >
+                </TextView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="right">
+                    <ImageView
+                        android:id="@+id/add_schedule_btn"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@mipmap/ic_launcher_round"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="30dp">
+                    </ImageView>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectanglebackground">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@mipmap/ic_launcher_round"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="10dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="기록"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:gravity="center|left"/>
+                </LinearLayout>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:hint="제목을 입력해주세요"
+                    android:textSize="17dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@color/white"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:hint="글을 입력해주세요"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@color/white"
+                    />
+            </LinearLayout>
         </LinearLayout>
 
-    </LinearLayout>
+    </ScrollView>
+
+
+
+
 
 
 </LinearLayout>

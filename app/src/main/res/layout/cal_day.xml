@@ -14,6 +14,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
+
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -38,6 +40,10 @@
 
                 </TextView>
             </LinearLayout>
+
+
+
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -55,7 +61,7 @@
                     android:layout_height="match_parent"
                     android:text="Date"
                     android:textColor="@color/black"
-                    android:textSize="18dp"
+                    android:textSize="25dp"
                     android:gravity="center"
                     android:layout_marginLeft="20dp"
                     >
@@ -67,15 +73,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_marginTop="30dp">
+                android:layout_marginTop="10dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:text="2021년 11월 5일"
                     android:textColor="@color/black"
-                    android:textSize="18dp"
+                    android:textSize="25dp"
                     android:gravity="center"
+                    android:textStyle="bold"
                     android:layout_marginLeft="20dp"
                     >
 
