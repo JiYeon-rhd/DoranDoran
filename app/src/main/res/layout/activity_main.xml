@@ -42,21 +42,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-
-
-
                 <TableLayout
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="3"
                    >
-
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="20dp"
                         android:orientation="horizontal">
-
                         <TextView
                             android:id="@+id/currentDate"
                             android:layout_width="wrap_content"
@@ -64,8 +59,6 @@
                             android:text="yyyy년 MM월"
                             android:textColor="@color/black"
                             android:textSize="20sp" />
-
-
                     </LinearLayout>
 
                     <LinearLayout
@@ -73,7 +66,6 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="20dp"
                         android:orientation="horizontal">
-
                         <TextView
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
@@ -82,7 +74,6 @@
                             android:textAlignment="center"
                             android:textColor="#756F6F"
                             android:textSize="15sp" />
-
                         <TextView
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
@@ -91,7 +82,6 @@
                             android:textAlignment="center"
                             android:textColor="#756F6F"
                             android:textSize="15sp" />
-
                         <TextView
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
@@ -214,15 +204,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="30dp"
-
                         android:text="▲ 전체 달력 보기"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="15sp" />
-
                 </TableLayout>
 
-            </LinearLayout>
+            </LinearLayout> <!--전체 달력 보기 -->
 
             <LinearLayout
                 android:id="@+id/settingsMenu"
